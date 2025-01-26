@@ -1,2 +1,14 @@
+/* Grid Container */
+.holder {
+  display: grid;                    /* Enable grid layout */
+  grid-template-rows: repeat(2, 1fr); /* Define two equal rows */
+  grid-template-columns: repeat(2, 1fr); /* Define two equal columns */
+  width: 200px;                      /* Set the grid container width */
+  height: 200px;                     /* Set the grid container height */
+  gap: 10px;                         /* Optional: space between grid items */
+}
 
-/* Your CSS Code here. */
+/* Grid Items (No changes to individual items) */
+.holder > div {
+  background-color: lightblue;       /* Example background color for items */
+}
